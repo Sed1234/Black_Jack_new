@@ -110,6 +110,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="AI.h" />
+    <ClInclude Include="BlackJack.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="User.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="BlackJack.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="User.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
